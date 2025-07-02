@@ -22,14 +22,14 @@
 // }
 
 
- class firstcode {
-    public static void main(String args[]) {
-        System.out.println("*");
-        System.out.println("**");
-        System.out.println("***");
-        System.out.println("****");
-    }
-}
+//  class firstcode {
+//     public static void main(String args[]) {
+//         System.out.println("*");
+//         System.out.println("**");
+//         System.out.println("***");
+//         System.out.println("****");
+//     }
+// }
 
 
 // Quiz
@@ -43,3 +43,4 @@
 // c. System.out.println("***\n");
 
 
+// variables
