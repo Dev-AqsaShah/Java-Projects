@@ -44,3 +44,24 @@
 
 
 // variables
+
+// class Main {
+//     public static void main(String[] args) {
+//         String name = "Aqsa";
+//         int age = 20;
+//         age = 21;
+//     }
+// }
+
+// input 
+
+import java.util.*;
+
+public class firstcode  {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();        
+        System.out.println(name);           
+    }
+}
