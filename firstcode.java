@@ -55,13 +55,62 @@
 
 // input 
 
-import java.util.*;
+// import java.util.*;
 
-public class firstcode  {
+// public class firstcode  {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();        
-        System.out.println(name);           
-    }
-}
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         String name = sc.nextLine();        
+//         System.out.println(name);           
+//     }
+// }
+
+
+
+//  LOOPS
+
+// public class firstcode {
+//     public static void main(String[] args) {
+//          for (int counter = 0 ; counter < 11; counter++) {
+//              System.out.println(counter);
+//          }
+//         for (int i = 0; i < 11; i++){
+//             System.out.println(i);
+//         }
+//     }
+    
+// }
+
+
+
+//  switch  & break
+
+//  print the greeting  hello, hi, salam
+
+// import java.util.Scanner;
+
+// public class firstcode {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter a button number (1, 2, or 3): ");
+//         int button = sc.nextInt(); // Use nextInt() instead of nextLine()
+
+//         switch (button) {
+//             case 1:
+//                 System.out.println("hello");
+//                 break;
+//             case 2:
+//                 System.out.println("hi");
+//                 break;
+//             case 3:
+//                 System.out.println("Salam");
+//                 break;
+//             default:
+//                 System.out.println("Invalid button");
+//         }
+
+//         sc.close(); // Always good practice to close the Scanner
+//     }
+// }
