@@ -88,32 +88,80 @@
 
 //  print the greeting  hello, hi, why
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class firstcode {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// public class firstcode {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a button number (1, 2, or 3): ");
-        int button = sc.nextInt(); // Take integer input
+//         System.out.print("Enter a button number (1, 2, or 3): ");
+//         int button = sc.nextInt(); // Take integer input
 
-        switch (button) {
-            case 1:
-                System.out.println("hello");
-                break;
-            case 2:
-                System.out.println("hi");
-                break;
-            case 3:
-                System.out.println("why");
-                break;
-            default:
-                System.out.println("Invalid button");
-        }
+//         switch (button) {
+//             case 1:
+//                 System.out.println("hello");
+//                 break;
+//             case 2:
+//                 System.out.println("hi");
+//                 break;
+//             case 3:
+//                 System.out.println("why");
+//                 break;
+//             default:
+//                 System.out.println("Invalid button");
+//         }
 
-        sc.close(); // Good practice
-    }
-}
+//         sc.close(); // Good practice
+//     }
+// }
+
+
+
+// while loop
+
+// public class firstcode {
+//     public static void main(String[] args) {
+//         int i = 0;
+//         while (i < 11) {
+//             System.out.println(i); 
+//             i++;                   
+//         }
+//     }
+// }
+
+
+
+// do while 
+// public class firstcode {
+//     public static void main(String[] args) {
+//         int i = 0;
+//         do {
+//             System.out.println(i);
+//             i = i + 1;
+//         } while (i < 11);
+//     }
+// }
+
+
+// public class firstcode {
+//     public static void main(String[] args) {
+//         int i = 12;
+//         while(i < 11) {
+//             System.out.println("aqsashah");
+//         }
+//     }
+// }
+
+
+// public class firstcode {
+//     public static void main(String[] args) {
+//         int i = 12;
+//         do {
+//             System.out.print("Aqsa shah");
+//         } while(i < 11);
+//     }
+// }
+
 
 
 
