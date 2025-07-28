@@ -86,31 +86,34 @@
 
 //  switch  & break
 
-//  print the greeting  hello, hi, salam
+//  print the greeting  hello, hi, why
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class firstcode {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
+public class firstcode {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-//         System.out.print("Enter a button number (1, 2, or 3): ");
-//         int button = sc.nextInt(); // Use nextInt() instead of nextLine()
+        System.out.print("Enter a button number (1, 2, or 3): ");
+        int button = sc.nextInt(); // Take integer input
 
-//         switch (button) {
-//             case 1:
-//                 System.out.println("hello");
-//                 break;
-//             case 2:
-//                 System.out.println("hi");
-//                 break;
-//             case 3:
-//                 System.out.println("Salam");
-//                 break;
-//             default:
-//                 System.out.println("Invalid button");
-//         }
+        switch (button) {
+            case 1:
+                System.out.println("hello");
+                break;
+            case 2:
+                System.out.println("hi");
+                break;
+            case 3:
+                System.out.println("why");
+                break;
+            default:
+                System.out.println("Invalid button");
+        }
 
-//         sc.close(); // Always good practice to close the Scanner
-//     }
-// }
+        sc.close(); // Good practice
+    }
+}
+
+
+
