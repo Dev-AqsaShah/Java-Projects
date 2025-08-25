@@ -1,3 +1,6 @@
+import java.util.*;
+import bank;
+
 class Pen {
     String color;
     String type; //ballpoint; gel
@@ -138,3 +141,11 @@ public class oops {
 
 
 // pakages
+
+public class oops {
+    public static void main(String args[]) {
+        bank.Account account = new bank.Account();
+        account1.name = "customer";
+    }
+    
+}
