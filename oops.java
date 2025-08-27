@@ -140,9 +140,7 @@ public class oops {
 }
 
 
-// pakages
-
-public class oops {
+// ppublic class oops {
     public static void main(String args[]) {
         bank.Account account = new bank.Account();
         account1.name = "customer";
@@ -153,3 +151,36 @@ public class oops {
 
 // access modifier 
 
+
+// Encapsulation
+
+// data hide
+
+
+// abstraction
+// important chize user ko dikhana or baki hide krdena
+
+abstract class Animal {
+    public void walk() {
+
+    }
+}
+
+class Horse extends Animal {
+    public void walk() {
+        System.out.println("walks on 4 legs");
+    }
+}
+
+class chicken extends Animal {
+    public void walk() {
+        System.out.println("walks on 2 legs");
+    }
+}
+
+public class oops {
+    public static void main(String args[]) {
+    horse.walk(); 
+    }
+    
+}
