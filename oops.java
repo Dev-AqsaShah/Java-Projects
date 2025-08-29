@@ -205,3 +205,6 @@ public class oops {
         horse.walk();
     }
 }
+
+// so here are the basic of opp
+
