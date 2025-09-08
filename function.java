@@ -33,3 +33,5 @@ public class Function {
     }
 }
 
+// find the factorial of a number.
+
