@@ -18,8 +18,11 @@ public class strings {
         // 1. concatination
         String firstName = "aqsa";
         String lastName = "shah";
-        String fulName = firstName + lastName;
+        String fulName = firstName + "" + lastName;
         System.out.println(fulName);
+        // length maloom krne k lie 
+        System.out.println(fulName.length());
+ 
     }
 }
 
