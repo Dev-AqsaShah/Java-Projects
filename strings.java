@@ -1,6 +1,6 @@
 // non primitive data types
 // 
-
+import java.util.*;
 import java.util.Scanner;
 
 public class strings {
@@ -22,7 +22,18 @@ public class strings {
         System.out.println(fulName);
         // length maloom krne k lie 
         System.out.println(fulName.length());
- 
+
+
+        // charAt
+        for(int i=0; i<fulName.length(); i++) {
+            System.out.println(fulName.charAt(i));
+        }
+
+        // compare
+        String name1 = "Tony";
+        String name2 = "Tony";
+
+        if()
     }
 }
 
