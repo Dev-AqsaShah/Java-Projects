@@ -46,5 +46,6 @@ public class strings {
         }
     }
 }
+// strings are immutable in java
 
-
+// string builder
