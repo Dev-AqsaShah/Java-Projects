@@ -49,3 +49,52 @@ public class strings {
 // strings are immutable in java
 
 // string builder
+
+
+// Points About Strings in Java
+
+// Definition → In Java, a string is a sequence of characters. Example:
+
+// String name = "Aqsa";
+
+
+// Class → In Java, String is a class, not a primitive data type.
+
+// Quotes → Strings are always written inside double quotes (" ").
+
+// Immutable → Strings in Java are immutable (once created, they cannot be changed).
+// Example:
+
+// String s1 = "Hello";
+// s1 = s1 + " World"; // Creates new string "Hello World"
+
+
+// String Methods → The String class has many useful methods:
+
+// length() → finds the number of characters.
+
+// toUpperCase() → converts to capital letters.
+
+// toLowerCase() → converts to small letters.
+
+// charAt(index) → returns character at given position.
+
+// concat() → joins two strings.
+
+// Indexing → Each character has an index starting from 0.
+// Example:
+// "Java" → J=0, a=1, v=2, a=3
+
+// String Objects → Strings can be created in two ways:
+
+// Using string literal:
+
+// String s1 = "Hello";
+
+
+// Using new keyword:
+
+// String s2 = new String("Hello");
+
+
+// Use Cases → Strings are widely used to handle text data like names, messages, input/output, etc.
