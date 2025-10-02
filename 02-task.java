@@ -82,3 +82,54 @@ public class TicketCalculator {
         sc.close();
     }
 }
+
+
+
+
+//! task-2 
+
+import java.time.LocalDate;
+import java.util.Scanner;
+
+public class AirlineTicketBillCalculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Base ticket price
+        final double BASE_PRICE = 500.0;
+
+        // Input: Birth year and number of tickets
+        System.out.print("Enter your birth year: ");
+        int birthYear = sc.nextInt();
+
+        System.out.print("Enter number of tickets: ");
+        int tickets = sc.nextInt();
+
+        // Find current year using LocalDate
+        int currentYear = LocalDate.now().getYear();
+
+        // Calculate age
+        int age = currentYear - birthYear;
+
+        // Determine discount
+        double discountRate;
+        if (age < 18) {
+            discountRate = 0.20;  // 20% discount
+        } else if (age <= 59) {
+            discountRate = 0.05;  // 5% discount
+        } else {
+            discountRate = 0.20;  // 20% discount
+        }
+
+        // Calculate discounted price per ticket
+        double discountedPrice = BASE_PRICE - (BASE_PRICE * discountRate);
+
+        // Calculate total bill
+        double totalBill = discountedPrice * tickets;
+
+        // Output
+        System.out.println("Your total bill is: $" + totalBill);
+        
+        sc.close();
+    }
+}
