@@ -208,3 +208,117 @@ public class oops {
 
 // so here are the basic of opp
 
+// oops points  
+
+// Main Concepts of OOP in Java
+// 1. Class
+
+// Class ek blueprint ya template hoti hai jisme properties (variables) aur behaviors (methods) define hote hain.
+
+// Example:
+
+// class Student {
+//     String name;
+//     int age;
+    
+//     void study() {
+//         System.out.println(name + " is studying.");
+//     }
+// }
+
+// 2. Object
+
+// Object ek instance of a class hota hai — yani ek real entity jo class ke data ko use karti hai.
+
+// Example:
+
+// Student s1 = new Student();
+// s1.name = "Aqsa";
+// s1.age = 20;
+// s1.study();
+
+// 3. Encapsulation
+
+// Data aur methods ko ek unit (class) me band karna.
+
+// Data ko private banakar aur getters/setters ke through access dena — isi ko encapsulation kehte hain.
+
+// Example:
+
+// class Account {
+//     private double balance;
+
+//     public void setBalance(double amount) {
+//         balance = amount;
+//     }
+
+//     public double getBalance() {
+//         return balance;
+//     }
+// }
+
+// 4. Inheritance
+
+// Ek class doosri class ke properties aur methods ko inherit (yaani use) karti hai.
+
+// “extends” keyword se hota hai.
+
+// Reusability badhata hai.
+
+// class Animal {
+//     void eat() { System.out.println("Eating..."); }
+// }
+
+// class Dog extends Animal {
+//     void bark() { System.out.println("Barking..."); }
+// }
+
+// 5. Polymorphism
+
+// Matlab "many forms" — ek hi method name ka alag-alag behavior.
+
+// 2 Types:
+
+// Compile-time (Method Overloading)
+
+// Runtime (Method Overriding)
+
+// // Overloading
+// class MathOps {
+//     int add(int a, int b) { return a + b; }
+//     double add(double a, double b) { return a + b; }
+// }
+
+// // Overriding
+// class Animal {
+//     void sound() { System.out.println("Some sound"); }
+// }
+// class Cat extends Animal {
+//     void sound() { System.out.println("Meow"); }
+// }
+
+// 6. Abstraction
+
+// Sirf essential details dikhana aur unnecessary details hide karna.
+
+// Abstract class ya interface ke zariye achieve hota hai.
+
+// abstract class Shape {
+//     abstract void draw();
+// }
+
+// class Circle extends Shape {
+//     void draw() { System.out.println("Drawing circle"); }
+// }
+
+// 💡 Extra Important Points
+
+// Java OOP ka main aim: modularity, reusability, security, and maintainability.
+
+// Constructor: special method used to initialize objects.
+
+// Access Modifiers: public, private, protected, default.
+
+// ‘this’ keyword: refers to current object.
+
+// ‘super’ keyword: parent class ke members ko access karne ke liye.
