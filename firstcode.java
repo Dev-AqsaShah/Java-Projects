@@ -45,6 +45,13 @@
 
 // variables
 
+// Variable aik naam hota hai jisme hum data store karte hain taki use baad mein program mein use kar saken.
+//  Ye ek container ki tarah hota hai jo value rakhta hai, jaise number, text, ya koi aur data.
+
+// Simple English:
+// A variable is a name used to store data so it can be used later in a program.
+// It acts like a container that holds a value, such as a number, text, or any other data.
+
 // class Main {
 //     public static void main(String[] args) {
 //         String name = "Aqsa";
